@@ -2,7 +2,7 @@
 
 Authors: S. Coadou-Chaventon, L. Siegelman<sup>\*</sup>, E. Carli<sup>\*</sup>, S. Swart, R. Schubert, S. Speich
 
-This is a repository for the data analyses and figures of *Oceanic Spatio-temporal Patterns of Vertical Velocities in the Cape Basin and Agulhas Current Retroflection From Two Years of SWOT Altimetry* (in review for GRL)
+This is a repository for the data analyses and figures of *Oceanic Spatio-temporal Patterns of Vertical Velocities in the Cape Basin and Agulhas Current Retroflection From Two Years of SWOT Altimetry* (in review for GRL). 
 
 ### Abstract
 <p align="justify">
@@ -18,12 +18,16 @@ The notebooks are organized as follows:
 3. Statistics on the derived N<sup>2</sup> and c. Shows no clear seasonal cycle in the parameters value but strong variability within the monthly N<sup>2</sup> distributions - [03_Timeseries_N2_and_c.ipynb](https://github.com/SolangeCoadou/CoadouChaventon-2026-GRL/blob/main/03_Timeseries_N2_and_c.ipynb)
 4. Processing INALT60 fields used in Figure 1 - [04_Fields_INALT60_extraction.ipynb](https://github.com/SolangeCoadou/CoadouChaventon-2026-GRL/blob/main/04_Fields_INALT60_extraction.ipynb)
 5. Plotting Figure 1. Shows the region of interest and some INALT60 filtered fields. It also highlights the moderate correlation between the vertical velocity variance and the strain magnitude - [05_Plot_INALT60_fields.ipynb](https://github.com/SolangeCoadou/CoadouChaventon-2026-GRL/blob/main/05_Plot_INALT60_fields.ipynb)
-6. Evaluating the eSQG performance in deriving relative vorticity and vertical velocity fields from the sea surface height using INALT60. Reveals that the eSQG framework robustly reconstruct w associated with mesoscale features - [06_Correlation_eSQG_INALT60.ipynb](https://github.com/SolangeCoadou/CoadouChaventon-2026-GRL/blob/main/06_Correlation_eSQG_INALT60.ipynb)
+6. Evaluating the eSQG performance in deriving relative vorticity and vertical velocity fields from the sea surface height (SSH) using INALT60. Reveals that the eSQG framework robustly reconstruct w associated with mesoscale features - [06_Correlation_eSQG_INALT60.ipynb](https://github.com/SolangeCoadou/CoadouChaventon-2026-GRL/blob/main/06_Correlation_eSQG_INALT60.ipynb)
 7. Reconstruction of $w$ over the SWOT fast sampling phase. Shows strong regional variability high-frequency variability, with events lasting several days to one week during which $w$ variance more than doubles - [07_Fast_sampling_reconstruction.ipynb](https://github.com/SolangeCoadou/CoadouChaventon-2026-GRL/blob/main/07_Fast_sampling_reconstruction.ipynb)
+8. Processing INALT60 fields to derive the properties shown in Figure 4 - [08_SSH_w_and_OW_INALT60.ipynb](https://github.com/SolangeCoadou/CoadouChaventon-2026-GRL/blob/main/08_SSH_w_and_OW_INALT60.ipynb)
+9. Computing statistics from INALT60 vertical velocity field shown in Figure 4  - [09_INALT60_statistics.ipynb](https://github.com/SolangeCoadou/CoadouChaventon-2026-GRL/blob/main/09_INALT60_statistics.ipynb)
+10. Reconstruction of $w$ over the SWOT science phase. Reveals the Agulhas Retroflection as a hotspot of intense $w$, resulting from the strong horizontal strain - [10_Science_phase_reconstruction.ipynb](https://github.com/SolangeCoadou/CoadouChaventon-2026-GRL/blob/main/10_Science_phase_reconstruction.ipynb)
 
 All the functions are available in a separate file (functions.py) and loaded at the beginning of each of the notebooks.
 
-</p>
+Some of the code used for solving the effective Surface Quasi Geostrophy equations has been developped by Elisa Carli, Lia Siegelman and Patrice Klein [(Carli et al., 2025)](https://zenodo.org/records/15088480). The spectral computations rely on the work of [Vivant et al., 2025](https://www.nature.com/articles/s43247-025-02002-z), available [here](https://zenodo.org/records/13923050).   
+</p> 
 
 ### Data sources
 
