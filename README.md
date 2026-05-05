@@ -2,7 +2,7 @@
 
 Authors: S. Coadou-Chaventon, L. Siegelman<sup>\*</sup>, E. Carli<sup>\*</sup>, S. Swart, R. Schubert, S. Speich
 
-This is a repository for the data analyses and figures of *Oceanic Spatio-temporal Patterns of Vertical Velocities in the Cape Basin and Agulhas Current Retroflection From Two Years of SWOT Altimetry* (in review for GRL). 
+This is a repository for the data analysis and figures of *Oceanic Spatio-temporal Patterns of Vertical Velocities in the Cape Basin and Agulhas Current Retroflection From Two Years of SWOT Altimetry* (in review for GRL). 
 
 ### Abstract
 <p align="justify">
